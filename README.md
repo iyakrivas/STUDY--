@@ -1,0 +1,2 @@
+# STUDY--
+learning the Japanese  
