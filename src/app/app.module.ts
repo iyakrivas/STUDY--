@@ -3,11 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ManComponent } from './man/man.component';
+import { BrainComponent } from './man/brain/brain.component';
+import { HeartComponent } from './man/heart/heart.component';
+import { FootComponent } from './man/foot/foot.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ManComponent,
+    BrainComponent,
+    HeartComponent,
+    FootComponent
     
   ],
   imports: [
