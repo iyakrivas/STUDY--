@@ -7,6 +7,8 @@ import { ManComponent } from './man/man.component';
 import { BrainComponent } from './man/brain/brain.component';
 import { HeartComponent } from './man/heart/heart.component';
 import { FootComponent } from './man/foot/foot.component';
+import { Page1Component } from './man/page1/page1.component';
+import { Page2Component } from './man/page2/page2.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { FootComponent } from './man/foot/foot.component';
     ManComponent,
     BrainComponent,
     HeartComponent,
-    FootComponent
+    FootComponent,
+    Page1Component,
+    Page2Component
     
   ],
   imports: [
